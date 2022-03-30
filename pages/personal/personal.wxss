@@ -1,0 +1,63 @@
+/* 总页面 */
+page{
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+/* .per_view01{
+  background: url();
+} */
+
+/* 顶部篮球 */
+.per_view01_src{
+  width: 100%;
+  height: 620rpx;
+  z-index: 0;
+}
+
+/* 顶部信息栏 */
+.per_view02{
+  width: 600rpx;
+  height: 360rpx;
+
+  margin: auto;
+  position: relative;
+  bottom: 540rpx;
+  border-radius: 40rpx;
+  border: solid 10rpx #f6b05e;
+}
+
+/* 表单信息 */
+.per_view02_view01_src{
+  width: 40rpx;
+  height: 40rpx;
+  z-index: 1;
+}
+
+.per_view02_view01{
+  position: relative;
+  left: 24%;
+}
+
+.per_view02_view01_view01{
+  margin-bottom: 20rpx;
+}
+
+.per_view02_view01_src_t{
+  position: relative;
+  bottom: 10rpx;
+  color: #fff;
+  padding-right: 40rpx;
+  padding-left: 20rpx;
+}
+
+/* 头像 */
+.per_view02_src01{
+  width: 150rpx;
+  height: 150rpx;
+  position: absolute;
+  left: -160rpx;
+  top: 60rpx;
+  border-radius: 100%;
+  overflow: hidden;
+}

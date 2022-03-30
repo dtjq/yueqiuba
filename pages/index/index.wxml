@@ -1,0 +1,52 @@
+
+<view class="idx-2">
+  <!-- 头部 -->
+  <view class="idx-2_view_01">
+    <image src="/images/index/ballbackground.png" class="idx-2_view_01_src"></image>
+  </view>
+
+  
+  <view class="idx-2_view_02">
+    <!-- 球场动态 -->
+    <view class="idx-2_view02_view01">
+      <view class="idx-2_view02_view_left_01"></view>
+      <button bindtap="onCourtDynamics" class="idx-2_view02_view_btn_01">球场动态</button>
+      <view class="idx-2_view02_view_right_01"></view>
+    </view>
+    
+    <!-- 球场预约 -->
+    <view class="idx-2_view02_view02">
+      <view class="idx-2_view02_view_left_02"></view>
+      <button bindtap="onCourtReservation" class="idx-2_view02_view_btn_02">球场预约</button>
+      <view class="idx-2_view02_view_right_02"></view>
+    </view>
+
+    <!--商城-->
+    <view class="idx-2_view02_view04">
+      <view class="idx-2_view02_view_left_04"></view>
+        <view bindtap="onShoppingMall" class="idx-2_view02_view_btn_04">
+        <text class="idx-2_view02_view04_text">商城</text>
+        </view>
+      <view class="idx-2_view02_view_right_04"></view>
+    </view>
+
+    <!--介绍-->
+    <view class="idx-2_view02_view04">
+      <view class="idx-2_view02_view_left_04"></view>
+        <view bindtap="onIntroduce" class="idx-2_view02_view_btn_04">
+        <text class="idx-2_view02_view04_text">介绍</text>
+        </view>
+      <view class="idx-2_view02_view_right_04"></view>
+    </view>
+
+    <!-- 匹配 -->
+    <view class="idx-2_view02_view03" bindtap="onMatch">
+      <image src="/images/backball_ground.png" class="idx-2_view02_view03_src"></image>
+      <text  space="ensp" class="idx-2_view02_view03_text">匹 配</text>
+    </view>
+  
+
+
+  </view>
+
+</view>

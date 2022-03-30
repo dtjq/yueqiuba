@@ -1,0 +1,183 @@
+/* 总页面 */
+page{
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+.idx-2{
+  background-color: #F2F2F2;
+  height: 100%;
+}
+
+/* 顶部 */
+.idx-2_view_01_src{
+  width: 100%;
+  /* height: 646rpx; */
+  height: 646rpx;
+}
+
+.idx-2_view_02{
+  height: 500rpx;
+}
+
+/* 球场动态 */
+.idx-2_view02_view01{
+  margin: auto;
+  position: relative;
+  height: 116rpx;/*20*/
+  width: 616rpx;/*48*/
+  top: 100rpx;
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+}
+.idx-2_view02_view_btn_01{
+  background-color:#F8931F;
+  color:white;
+  width: 456rpx !important;
+  border-radius: 0;
+  float: left;
+  margin-top: 8rpx;
+  height: 100rpx;/* -20 */
+  font-size: 46rpx;
+}
+.idx-2_view02_view_left_01{
+  float: left;
+  background-color:#F8931F;
+  width: 64rpx;
+  height: 100rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+  border-radius:  8% 0 0 8%;
+}
+.idx-2_view02_view_right_01{
+  float: left;
+  background-color:#F8931F;
+  width: 64rpx;
+  height: 100rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius: 0 8% 8% 0;
+}
+
+/* 球场预约 */
+.idx-2_view02_view02{
+  position: relative;
+  margin: auto;
+  top: 160rpx;
+  height: 116rpx;/*20*/
+  width: 616rpx;/*48*/
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+}
+
+
+.idx-2_view02_view_btn_02{
+  background-color:#F8931F;
+  color:white;
+  float: left;
+  width: 456rpx !important;
+  margin-top: 8rpx;
+  border-radius: 0;
+  height: 100rpx;
+  font-size: 46rpx;
+}
+
+.idx-2_view02_view_left_02{
+  background-color:#F8931F;
+  width: 64rpx;
+  height: 100rpx;
+  margin-right: 8rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius:  8% 0 0 8%;
+  float: left;
+}
+
+.idx-2_view02_view_right_02{
+  background-color:#F8931F;
+  width: 64rpx;
+  height: 100rpx;
+  margin-left: 8rpx;
+  margin-top: 8rpx;
+  margin-right: 8rpx;
+  border-radius: 0 8% 8% 0;
+  float: left;
+}
+
+/* 商城 介绍 */
+.idx-2_view02_view04{
+  position: relative;
+  margin: auto;
+  top: 275rpx;
+  margin-left: 67.2rpx;
+  height: 116rpx;/*20*/
+  width: 200rpx;/*48*/
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+  margin-bottom: 20rpx;
+}
+
+
+.idx-2_view02_view_btn_04{
+  background-color:#F8931F;
+  color:white;
+  float: left;
+  width: 120rpx !important;
+  margin-top: 8rpx;
+  border-radius: 0;
+  height: 100rpx;
+  font-size: 36rpx;
+}
+
+.idx-2_view02_view_left_04{
+  background-color:#F8931F;
+  width: 24rpx;
+  height: 100rpx;
+  margin-right: 8rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius:  8% 0 0 8%;
+  float: left;
+}
+
+.idx-2_view02_view_right_04{
+  background-color:#F8931F;
+  width: 24rpx;
+  height: 100rpx;
+  margin-left: 8rpx;
+  margin-top: 8rpx;
+  margin-right: 8rpx;
+  border-radius: 0 8% 8% 0;
+  float: left;
+}
+
+.idx-2_view02_view04_text{
+  margin-left: 20rpx;
+  position: relative;
+  top: 20rpx;
+  font-weight: 600;
+}
+
+/* 匹配 */
+.idx-2_view02_view03{
+  width: 400rpx;
+  height: 200rpx;
+  /* background-image:url(Li4vLi4vaW1hZ2VzL2JhY2tiYWxsX2dyb3VuZC5wbmc=); */
+  position: relative;
+  top: 2rpx;
+  left: 300rpx;}
+.idx-2_view02_view03_src{
+  width: 380rpx;
+  height: 250rpx;
+  background-size: 100% 100%;
+  position: relative;
+}
+.idx-2_view02_view03_text{
+  position: absolute;
+  margin-top: 72rpx;
+  left: 25%;
+  font-size: 72rpx;
+  color: #F2F2F2;
+  font-weight: 800;
+}

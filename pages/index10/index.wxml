@@ -1,0 +1,51 @@
+<view class="zy">
+  <!-- 头部 -->
+  <view class="zy_view_01">
+    <image src="../../images/head.png" class="zy_view_src_01"></image>
+  </view>
+
+  <!-- 匹配 -->
+  <view class="zy_view_02">
+    <!-- <view class="msg">{{msg}}</view> -->
+    <view class="zy_view02_view01">
+      <view class="zy_view02_view_left_01"></view>
+      <button bindtap="onSinglePersonMatch" id="zy_view02_view_btn_01">单人匹配</button>
+      <view class="zy_view02_view_right_01"></view>
+    </view>
+    
+    <!-- 多人匹配 -->
+    <view class="zy_view02_view02">
+      <view class="zy_view02_view_left_02"></view>
+      <button bindtap="onMultiPersonMatch" id="zy_view02_view_btn_02">多人匹配</button>
+      <view class="zy_view02_view_right_02"></view>
+    </view>
+    <!-- 匹配界面 -->
+    <view class="zy_view02_view03">
+      <view class="zy_view02_view_src_02"><image src="../../images/basketball.png" class="zy_view02_view_src_02"></image></view>
+      <image class="idx-4_view02_view02_scr01" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr02" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr03" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr04" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr05" src="../../images/idx-4/控件人员.png"></image>
+      <view class="zy_view02_view_vs" bindtap="onThree">3v3</view>
+      <view class="zy_view02_view_vs" bindtap="onFour">4v4</view>
+      <view class="zy_view02_view_vs" bindtap="onFive">5v5</view>
+      <view class="zy_view02_view_vsx"><image src="../../images/sure.png" class="zy_view02_view_src_03"></image></view>
+
+
+
+    </view>
+
+    <!-- 球赛预约 -->
+    <view class="zy_view02_view04">
+      <view class="zy_view02_view_left_03"></view>
+      <button bindtap="onBallGameReservation" id="zy_view02_view_btn_04">球赛预约</button>
+      <view class="zy_view02_view_right_03"></view>
+    </view>
+
+
+  </view>
+
+
+
+</view>

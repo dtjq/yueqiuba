@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/personal/personal",
+    "pages/index/index",
+    "pages/index10/index",
+    "pages/index-1/index-1",
+    "pages/ranking/ranking",
+    "pages/index-4/index-4",  
+    "pages/logs/logs",
+    "pages/ces/cs",
+    "pages/community/community"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f6b05e",
+    "navigationBarTitleText": "abcd",
+    "navigationBarTextStyle": "black"
+    
+  },
+
+  "tabBar": {
+    "backgroundColor": "#f67f00",
+    "color": "#ffffff",
+    "selectedColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index/首页 (切换状态).png",
+        "selectedIconPath": "images/index/首页@3x.png"
+      },
+      {
+        "pagePath": "pages/community/community",
+        "text": "社区",
+        "iconPath": "images/community/社区@3x.png",
+        "selectedIconPath": "images/community/社区 (切换状态)@3x.png"
+      },
+      {
+        "pagePath": "pages/ranking/ranking",
+        "text": "排名",
+        "iconPath": "images/ranking/排行@3x.png",
+        "selectedIconPath": "images/ranking/排行 (切换状态)@3x.png"
+
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "images/personal/我的@3x.png",
+        "selectedIconPath": "images/personal/我的 (切换状态)@3x.png"
+      }
+    ]
+  },
+
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

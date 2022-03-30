@@ -1,0 +1,142 @@
+/* 总页面 */
+page{
+  height: 100%;
+  width: 100%;
+    background-color: #F2F2F2;
+}
+
+/* .idx-1{
+  height: 100%;
+  width: 100%;
+} */
+
+/* 顶部 */
+.idx-1_view_01_src{
+  width: 100%;
+  height: 646rpx;
+}
+
+
+/* 单人匹配 */
+.idx-1_view02_view01{
+  margin: auto;
+  position: relative;
+  height: 136rpx;/*20*/
+  width: 540rpx;/*48*/
+  top: 100rpx;
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+}
+.idx-1_view02_view_btn_01{
+  background-color:#F8931F;
+  color:white;
+  width: 324rpx !important;
+  border-radius: 0;
+  float: left;
+  margin-top: 8rpx;
+  height: 120rpx;
+  font-size: 46rpx;
+}
+.idx-1_view02_view_left_01{
+  float: left;
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+  border-radius:  8% 0 0 8%;
+}
+.idx-1_view02_view_right_01{
+  float: left;
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius: 0 8% 8% 0;
+}
+
+/* 多人匹配 */
+.idx-1_view02_view02{
+  position: relative;
+  margin: auto;
+  top: 200rpx;
+  height: 136rpx;/*20*/
+  width: 540rpx;/*48*/
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+}
+
+.idx-1_view02_view_btn_02{
+  background-color:#F8931F;
+  color:white;
+  float: left;
+  width: 324rpx !important;
+  margin-top: 8rpx;
+  border-radius: 0;
+  height: 120rpx;
+  font-size: 46rpx;
+}
+
+.idx-1_view02_view_left_02{
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-right: 8rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius:  8% 0 0 8%;
+  float: left;
+}
+
+.idx-1_view02_view_right_02{
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-left: 8rpx;
+  margin-top: 8rpx;
+  margin-right: 8rpx;
+  border-radius: 0 8% 8% 0;
+  float: left;
+}
+/* 球赛预约 */
+.idx-1_view02_view04{
+  position: relative;
+  margin: auto;
+  top: 280rpx;
+  height: 136rpx;/*20*/
+  width: 540rpx;/*48*/
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+}
+.idx-1_view02_view_btn_04{
+  background-color:#F8931F;
+  color:white;
+  float: left;
+  width: 324rpx !important;
+  margin-top:8rpx;
+  border-radius: 0;
+  height: 120rpx;
+  font-size: 46rpx;
+}
+.idx-1_view02_view_left_03{
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-right: 8rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius:  8% 0 0 8%;
+  float: left;
+}
+
+.idx-1_view02_view_right_03{
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-left: 8rpx;
+  margin-top: 8rpx;
+  border-radius: 0 8% 8% 0;
+  float: left;
+}

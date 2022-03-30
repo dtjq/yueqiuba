@@ -1,0 +1,236 @@
+/* 总页面 */
+.zy{
+  background-color: #F2F2F2;
+  height: 1500rpx;
+}
+
+/* 第一界面 */
+.zy_view_src_01{
+  width: 100%;
+  height: 420rpx;
+}
+
+/* 第二界面 */
+.zy_view_02{
+  height: 800rpx;
+}
+
+/* 单人匹配 */
+.zy_view02_view01{
+  margin: auto;
+  position: relative;
+  height: 136rpx;/*20*/
+  width: 540rpx;/*48*/
+  top: 60rpx;
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+}
+#zy_view02_view_btn_01{
+  background-color:#F8931F;
+  color:white;
+  width: 324rpx;
+  border-radius: 0;
+  float: left;
+  margin-top: 8rpx;
+  height: 120rpx;
+  font-size: 46rpx;
+}
+.zy_view02_view_left_01{
+  float: left;
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  margin-right: 8rpx;
+  border-radius:  8% 0 0 8%;
+}
+.zy_view02_view_right_01{
+  float: left;
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius: 0 8% 8% 0;
+}
+
+/* 多人匹配 */
+.zy_view02_view02{
+  position: relative;
+  margin: auto;
+  top: 120rpx;
+  height: 136rpx;/*20*/
+  width: 540rpx;/*48*/
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+}
+
+#zy_view02_view_btn_02{
+  background-color:#F8931F;
+  color:white;
+  float: left;
+  width: 324rpx;
+  margin-top: 8rpx;
+  border-radius: 0;
+  height: 120rpx;
+  font-size: 46rpx;
+}
+
+.zy_view02_view_left_02{
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-right: 8rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius:  8% 0 0 8%;
+  float: left;
+}
+
+.zy_view02_view_right_02{
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-left: 8rpx;
+  margin-top: 8rpx;
+  margin-right: 8rpx;
+  border-radius: 0 8% 8% 0;
+  float: left;
+}
+
+/* 匹配界面 */
+.zy_view02_view03{
+  margin: auto;
+  height: 400rpx;
+  background-color: #FBB15A;
+  width: 520rpx;/*48*/
+  position: relative;
+  top: 120rpx;
+  border-radius: 0% 0% 6% 6%;
+  border:solid 10rpx white;
+  border-top: 0rpx;
+}
+.zy_view02_view_src_02{
+  position: relative;
+  top: 6rpx;
+  width: 180rpx;
+  height: 180rpx;
+  margin: auto;
+}
+.zy_view02_view_vs,.zy_view02_view_vsx{
+  height: 60rpx;
+  width: 88rpx;
+  background-color: #F47621;
+  float: left;
+  position: relative;
+  top: 128rpx;
+  left: 6rpx;
+  text-align: center;
+  border: solid 4rpx white;
+  border-radius: 10%;
+  color: #F2F2F2;
+  font-weight: 800;
+  margin-left: 10rpx;
+}
+.zy_view02_view_vsx{
+  width: 160rpx;
+}
+.zy_view02_view_src_03{
+  position: relative;
+  top: 8rpx;
+  width: 60rpx;
+  height: 40rpx;
+}
+
+/* 头像框 */
+.idx-4_view02_view02_scr01{
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+  position: absolute;
+  left: 30rpx;
+  top: 40rpx;
+}
+
+
+.idx-4_view02_view02_scr02{
+  width: 80rpx;
+  height: 80rpx;
+  float: right;
+  position: absolute;
+  right: 30rpx;
+  top: 40rpx;
+}
+
+
+.idx-4_view02_view02_scr03{
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+  position: absolute;
+  left: 80rpx;
+  top: 160rpx;
+}
+.idx-4_view02_view02_scr04{
+  width: 80rpx;
+  height: 80rpx;
+  float: right;
+  position: absolute;
+  right: 80rpx;
+  top: 160rpx;
+}
+.idx-4_view02_view02_scr05{
+  width: 80rpx;
+  height: 80rpx;
+  float: left;
+  position: absolute;
+  left: 220rpx;
+  top: 200rpx;
+}
+
+
+/* 球赛预约 */
+
+.zy_view02_view04{
+  position: relative;
+  margin: auto;
+  top: 200rpx;
+  height: 136rpx;/*20*/
+  width: 540rpx;/*48*/
+  background-color:white;
+  border-radius: 6% 6% 6% 6%;
+}
+#zy_view02_view_btn_04{
+  background-color:#F8931F;
+  color:white;
+  float: left;
+  width: 324rpx;
+  margin-top:8rpx;
+  border-radius: 0;
+  height: 120rpx;
+  font-size: 46rpx;
+}
+.zy_view02_view_left_03{
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-right: 8rpx;
+  margin-top: 8rpx;
+  margin-left: 8rpx;
+  border-radius:  8% 0 0 8%;
+  float: left;
+}
+
+.zy_view02_view_right_03{
+  background-color:#F8931F;
+  width: 92rpx;
+  height: 120rpx;
+  margin-left: 8rpx;
+  margin-top: 8rpx;
+  border-radius: 0 8% 8% 0;
+  float: left;
+}
+
+
+

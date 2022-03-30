@@ -1,0 +1,51 @@
+<view class="idx-4">
+  <!-- 1.头部 -->
+  <view class="idx-4_view_01">
+    <image src="../../images/head.png" class="idx-4_view_src_01"></image>
+  </view>
+
+  <!-- 2.中部 -->
+  <view class="idx-4_view_02">
+    <!-- 2.1 球赛预约 -->
+    <view class="idx-4_view02_view01">
+      <view class="idx-4_view02_view_left_01"></view>
+      <button  class="idx-4_view02_view_btn_01" bindtap="onBallGameReservation">球赛预约</button>
+      <view class="idx-4_view02_view_right_01"></view>
+    </view>
+
+    <!-- 2.2 添加 -->
+    <view class="idx-4_view02_view02">
+      <view class="idx-4_view02_view02_view01"> 
+        <view class="idx-4_view02_view02_left_01"></view>
+        <button  class="idx-4_view02_view02_btn01" bindtap="onAddition">添加</button>
+        <view class="idx-4_view02_view02_right_01"></view>
+      </view>
+
+    <!-- 匹配的头像 -->
+    <view class="idx-4_view02_view02_view02"> 
+      <image class="idx-4_view02_view02_scr01" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr02" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr03" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr04" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr05" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr06" src="../../images/idx-4/控件人员.png"></image>      
+      <image class="idx-4_view02_view02_scr07" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr08" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr09" src="../../images/idx-4/控件人员.png"></image>
+      <image class="idx-4_view02_view02_scr10" src="../../images/idx-4/控件人员.png"></image>
+    </view>
+
+    </view>
+
+    <!-- 2.3 内容 -->
+    <view class="idx-4_view02_view03">
+      <view class="idx-4_view02_view03_view">
+        <text space="nbsp"  class="idx-4_view02_view03_view_text">时间 : {{time}}</text>
+      </view>
+      <view class="idx-4_view02_view03_view">
+        <text space="nbsp"  class="idx-4_view02_view03_view_text">球场 : {{court}}</text>
+      </view>
+    </view>
+
+  </view>
+</view>

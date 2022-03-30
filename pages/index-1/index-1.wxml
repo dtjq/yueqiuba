@@ -1,0 +1,33 @@
+<view class="idx-1">
+  <!-- 头部 -->
+  <view class="idx-1_view_01">
+    <image src="../../images/图标.png" class="idx-1_view_01_src"></image>
+  </view>
+
+
+  <view class="idx-1_view_02">
+    <!-- 单人匹配 -->
+    <view class="idx-1_view02_view01">
+      <view class="idx-1_view02_view_left_01"></view>
+      <button bindtap="onSinglePersonMatch" class="idx-1_view02_view_btn_01">单人匹配</button>
+      <view class="idx-1_view02_view_right_01"></view>
+    </view>
+    
+    <!-- 多人匹配 -->
+    <view class="idx-1_view02_view02">
+      <view class="idx-1_view02_view_left_02"></view>
+      <button bindtap="onMultiPersonMatch" class="idx-1_view02_view_btn_02">多人匹配</button>
+      <view class="idx-1_view02_view_right_02"></view>
+    </view>
+
+    <view class="idx-1_view02_view04">
+      <view class="idx-1_view02_view_left_03"></view>
+      <button bindtap="onBallGameReservation" class="idx-1_view02_view_btn_04">球赛预约</button>
+      <view class="idx-1_view02_view_right_03"></view>
+    </view>
+
+
+  </view>
+
+
+</view>
